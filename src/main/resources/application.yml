@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: streams-sample-zvxf
+  kafka:
+    bootstrap-servers: localhost:9092
+    streams:
+      application-id: streams-sample-zvxf
+sample:
+  transaction_topic: txn
